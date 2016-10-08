@@ -32,7 +32,7 @@ for this_trial = 1:num_trials,
 end
 subplot(1,3,1)
 hist(mean(btw_subj_acc,2))
-fprintf('Stable Channel Semantic Decoding\n')
+fprintf('Between Subjects Decoding\n')
 sig_acc = prctile(mean(btw_subj_acc,2),95);
 p_val = sum(mean(btw_subj_acc,2)>=0.6518) / size(btw_subj_acc,1);
 fprintf('95th %%ile accuracy: %0.2f; p(Acc=0.6518)=%0.3f\n\n',sig_acc,p_val)
