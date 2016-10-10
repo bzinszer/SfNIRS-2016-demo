@@ -1,5 +1,8 @@
 function v=StatMap_ST(datM2,lblC,smType)    
 
+
+    % andrew j. anderson (aander41@ur.rochester.edu)
+    
     % datM2 is the 2D matrix (class x run)-by-voxel
     % lblC is 1-by-(class x run) cell array of labels
     % smType selects the test for stability (use Pearson)
